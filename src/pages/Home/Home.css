@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+
+
+
+
+
+.hero3 {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url('../../assets/img/img-2.jpg');
+  margin-top: 10px;
+  margin-bottom: 40px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  font-family: font-2;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0.05) 45%,
+    rgba(0, 0, 0, 0) 70%
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 0 24px 32px;
+  max-width: 700px;
+  color: #FEFDB3;
+}
+
+@media (min-width: 900px) {
+  .hero-content {
+    padding: 0 0 48px 48px;
+  }
+}
+
+.hero-content h1 {
+  font-size: 30px;
+  font-weight: 200;
+  color: #FEFDB3;
+  margin: 0 0 8px 0;
+  line-height: 1.05;
+}
+
+@media (min-width: 640px) {
+  .hero-content h1 {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero-content h1 {
+    font-size: 58px;
+    margin: 0 0 10px 0;
+  }
+}
+
+.hero-line {
+  font-size: 15px;
+  color: #FEFDB3;
+  font-family: font-1;
+  margin: 0 0 2px 0;
+}
+
+@media (min-width: 900px) {
+  .hero-line {
+    font-size: 20px;
+  }
+}
+
+.hero-code {
+  font-size: 24px;
+  font-weight: 200;
+  font-family: font-2;
+  color: #FEFDB3;
+  margin: 0 0 6px 0;
+}
+
+@media (min-width: 640px) {
+  .hero-code {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero-code {
+    font-size: 38px;
+  }
+}
+
+.hero-note {
+  font-size: 13px;
+  color: #FEFDB3;
+  font-weight: 200;
+  font-family: font-2;
+  margin: 0;
+}
+
+@media (min-width: 900px) {
+  .hero-note {
+    font-size: 16px;
+  }
+}
+
+.hero-cta {
+  position: absolute;
+  right: 20px;
+  font-family: font-1;
+  bottom: 20px;
+  z-index: 1;
+  background-color: #fff;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 16px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .hero-cta {
+    right: 40px;
+    bottom: 36px;
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
+
+.hero-cta:hover {
+  background-color: black;
+  backdrop-filter: blur(1px);
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .hero3 {
+    height: 480px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero3 {
+    height: 400px;
+  }
+}

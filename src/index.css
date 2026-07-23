@@ -1,0 +1,43 @@
+@font-face {
+  font-family: font-1;
+  src: url(./assets/fonts/font-1.woff2);
+}
+@font-face {
+  font-family: font-2;
+  src: url(./assets/fonts/font-2.woff2);
+}
+@font-face {
+  font-family: font-3;
+  src: url(./assets/fonts/font-3.woff2);
+}
+@font-face {
+  font-family: font-4;
+  src: url(./assets/fonts/font-4.woff2);
+}
+@font-face {
+  font-family: font-5;
+  src: url(./assets/fonts/font-5.woff2);
+}
+@font-face {
+  font-family: font-6;
+  src: url(./assets/fonts/font-6.woff2);
+}
+@font-face {
+  font-family: font-7;
+  src: url(./assets/fonts/font-7.woff2);
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  max-width: 100%;
+}
