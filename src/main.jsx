@@ -24,6 +24,9 @@ const router= createBrowserRouter([
   {
     path: '/shop',
     element: <Shop/>
+  },
+   {
+    basename: "/Kave-Home-react_website",
   }
 ])
 
