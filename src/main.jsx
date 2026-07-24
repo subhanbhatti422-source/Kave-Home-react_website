@@ -8,6 +8,7 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Stores from './pages/Stores/Stores'
 import Shop from './pages/Shop/Shop'
+import Contact from './pages/Contact/Contact'
 
 const router = createBrowserRouter(
   [
@@ -27,6 +28,10 @@ const router = createBrowserRouter(
       path: '/shop',
       element: <Shop />,
     },
+{
+    path: '/contact',
+element: <Contact/>
+}    
   ],
   {
     basename: '/Kave-Home-react_website',

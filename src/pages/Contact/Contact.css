@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.contact-page {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: #ffffff;
+    margin-top: 140px;
+    font-family: font-3;
+}
+
+.contact-breadcrumb {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px 24px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.contact-breadcrumb .sep {
+    margin: 0 8px;
+}
+
+.contact-breadcrumb .active {
+    color: #2E0854;
+    font-weight: 500;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 24px;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 48px;
+}
+
+.contact-sidebar h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #aaa;
+    margin-bottom: 16px;
+}
+
+.contact-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-sidebar li {
+    font-size: 14px;
+    color: #888;
+    padding: 8px 0 8px 12px;
+    border-left: 2px solid transparent;
+    cursor: pointer;
+}
+
+.contact-sidebar li.active {
+    color: #2E0854;
+    font-weight: 600;
+    border-left-color: #FF3EA5;
+}
+
+.contact-title {
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+    color: #2E0854;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.growth-icon {
+    width: 40px;
+    height: 40px;
+    opacity: 0.15;
+}
+
+.contact-sub {
+    font-size: 12px;
+    color: #aaa;
+    margin: 4px 0 24px;
+}
+
+.contact-text {
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.contact-text a {
+    color: #FF3EA5;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact-text a:hover {
+    text-decoration: underline;
+}
+
+.contact-cards {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    gap: 16px;
+    margin: 32px 0;
+}
+
+.contact-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 20px;
+    background: linear-gradient(135deg, #fff, #FDF2F9);
+    transition: border-color 0.2s;
+}
+
+.contact-card:hover {
+    border-color: #FF3EA5;
+}
+
+.card-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.card-head h3 {
+    font-size: 15px;
+    color: #2E0854;
+    margin: 0;
+}
+
+.contact-card p,
+.contact-hours p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.contact-hours {
+    background: linear-gradient(90deg, #ecebec, #f0eced);
+    border-radius: 12px;
+    padding: 20px;
+    color: black;
+    margin-bottom: 32px;
+}
+
+.contact-hours p {
+    color: black;
+    margin: 4px 0 0;
+}
+
+.contact-hours span {
+    font-size: 12px;
+    /* color: rgba(255, 255, 255, 0.7); */
+    color: black;
+
+}
+
+.contact-feedback {
+    text-align: center;
+    margin: 32px 0;
+}
+
+.contact-feedback p {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 12px;
+}
+
+.feedback-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.feedback-buttons button {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-yes:hover {
+    border-color: #2E0854;
+    color: #2E0854;
+}
+
+.btn-no:hover {
+    border-color: #FF3EA5;
+    color: #FF3EA5;
+}
+
+.contact-related h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 12px;
+}
+
+.contact-related ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-related li {
+    margin-bottom: 8px;
+}
+
+.contact-related a {
+    color: #FF3EA5;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contact-related a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-sidebar {
+        display: none;
+    }
+
+    .contact-cards {
+        grid-template-columns: 1fr;
+    }
+}

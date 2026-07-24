@@ -20,6 +20,7 @@ const Navbar = () => {
           <Link to="/about">About us</Link>
           <Link to="/stores">Stores</Link>
           <Link to="/shop">Shop</Link>
+          <Link to="/contact">Contact us</Link>
           <span className="divider">|</span>
           <button className="lang-select">
             English <ChevronDown size={14} />
