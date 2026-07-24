@@ -26,8 +26,8 @@ const Home = () => {
       <button className="hero-cta">Discover</button>
     </section>
 
-    {/* <KaveGalleryHero/> */}
-    {/* <SupportSection/> */}
+    <KaveGalleryHero/>
+    <SupportSection/>
     // <Footer/>
     </>
   )
