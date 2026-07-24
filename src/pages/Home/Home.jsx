@@ -15,16 +15,16 @@ const Home = () => {
      <h1>Home Page</h1>
     <Hero/>
     <StyleSlider/>
-    {/* <HeroBanner/> */}
+    <HeroBanner/>
 
-     {/* <section className="hero3">
+     <section className="hero3">
       <div className="hero-overlay" />
       <div className="hero-content">
         <h1>Selected Collection</h1>
         <p className="hero-note">For a limited time only.</p>
       </div>
       <button className="hero-cta">Discover</button>
-    </section> */}
+    </section>
 
     {/* <KaveGalleryHero/> */}
     {/* <SupportSection/> */}
