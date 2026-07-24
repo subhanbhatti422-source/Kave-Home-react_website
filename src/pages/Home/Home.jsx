@@ -12,7 +12,8 @@ const Home = () => {
   return (
     <>
      <Navbar/>
-    <Hero/>
+     <h1>Home Page</h1>
+    {/* <Hero/>
     <StyleSlider/>
     <HeroBanner/>
 
@@ -27,7 +28,7 @@ const Home = () => {
 
     <KaveGalleryHero/>
     <SupportSection/>
-    <Footer/>
+    <Footer/> */}
     </>
   )
 }
